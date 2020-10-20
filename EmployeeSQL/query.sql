@@ -10,7 +10,9 @@ DROP TABLE dept_manager;
 /**Drop Table employees**/
 DROP TABLE employees;
 
+/**Drop Table salaries**/
 DROP TABLE salaries;
+
 DROP TABLE titles;
 
 CREATE TABLE departments(
