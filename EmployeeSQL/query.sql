@@ -13,6 +13,7 @@ DROP TABLE employees;
 /**Drop Table salaries**/
 DROP TABLE salaries;
 
+/**Drop Table titles**/
 DROP TABLE titles;
 
 CREATE TABLE departments(
