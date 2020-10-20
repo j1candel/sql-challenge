@@ -81,8 +81,7 @@ FROM dept_manager A
 LEFT JOIN employees B
 ON A.emp_no = B.emp_no
 LEFT JOIN departments C
-ON A.dept_no = C.dept_no
-WHERE;
+ON A.dept_no = C.dept_no;
 
 /**Finding the department for each employee. Displaying employee number, last name, first name, and 
 department name**/
