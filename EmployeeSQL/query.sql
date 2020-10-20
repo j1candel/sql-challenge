@@ -21,10 +21,12 @@ CREATE TABLE departments(
 dept_no VARCHAR PRIMARY KEY ,
 dept_name VARCHAR);
 
+/**Create Table dept_emp**/
 CREATE TABLE dept_emp(
 emp_no INT,
 dept_no VARCHAR,
 PRIMARY KEY (emp_no, dept_no));
+
 
 CREATE TABLE dept_manager(
 dept_no VARCHAR,
