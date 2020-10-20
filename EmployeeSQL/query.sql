@@ -89,7 +89,7 @@ SELECT A.emp_no
 ,B.first_name
 ,B.last_name
 ,C.dept_name
-FROM department_employee A
+FROM dept_emp A
 INNER JOIN employees B
 ON A.emp_no = B.emp_no
 INNER JOIN departments C
@@ -110,7 +110,7 @@ SELECT A.emp_no
 ,B.first_name
 ,B.last_name
 ,C.dept_name
-FROM department_employee A
+FROM dept_emp A
 INNER JOIN employees B
 ON A.emp_no = B.emp_no
 INNER JOIN departments C
@@ -122,5 +122,5 @@ SELECT last_name
 ,COUNT(last_name) AS "Frequency Of Last Name"
 FROM employees
 GROUP BY last_name
-ORDER BY "FREQUENCY OF LAST NAME" DESC;
+ORDER BY "Frequency Of Last Name" DESC;
 
