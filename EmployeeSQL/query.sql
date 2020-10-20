@@ -6,7 +6,10 @@ DROP TABLE dept_emp;
 
 /**Drop Table dept_manager**/
 DROP TABLE dept_manager;
+
+/**Drop Table employees**/
 DROP TABLE employees;
+
 DROP TABLE salaries;
 DROP TABLE titles;
 
