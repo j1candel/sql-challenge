@@ -43,7 +43,7 @@ last_name VARCHAR,
 sex VARCHAR,
 hire_date DATE);
 
-
+/**Create Table salaries**/
 CREATE TABLE salaries(
 emp_no INT PRIMARY KEY,
 salary INT);
