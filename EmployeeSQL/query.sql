@@ -1,6 +1,9 @@
 /**Drop Table Departments**/
 DROP TABLE departments;
-DROP TABLE department_employee;
+
+/**Drop Table dept_emp**/
+DROP TABLE dept_emp;
+
 DROP TABLE dept_manager;
 DROP TABLE employees;
 DROP TABLE salaries;
