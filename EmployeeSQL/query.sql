@@ -16,6 +16,7 @@ DROP TABLE salaries;
 /**Drop Table titles**/
 DROP TABLE titles;
 
+/**Create Table departments**/
 CREATE TABLE departments(
 dept_no VARCHAR PRIMARY KEY ,
 dept_name VARCHAR);
