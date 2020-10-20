@@ -48,7 +48,7 @@ CREATE TABLE salaries(
 emp_no INT PRIMARY KEY,
 salary INT);
 
-
+/**Create Table salaries**/
 CREATE TABLE titles(
 title_id VARCHAR PRIMARY KEY,
 title VARCHAR);
